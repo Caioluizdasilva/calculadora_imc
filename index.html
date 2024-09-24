@@ -4,52 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="stylesheet" href="assets/css/style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <title>Calculadora de IMC</title>
 </head>
 <body>
     <main id="container">
         <section id="img">
-            <img src="assets/images/ilustration.svg">
+            <img src="assets/images/ilustration.svg" alt="Ilustração">
         </section>
 
         <section id="calculator">
             <form id="form">
-                <h1 id="title">
-                    Calculadora - IMC
-                </h1>
+                <h1 id="title">Calculadora - IMC</h1>
 
                 <div class="input-box">
-                    <label for="weight">
-                        Peso em kg
-                    </label>
+                    <label for="weight">Peso em kg</label>
                     <div class="input-field">
                         <i class="fa-solid fa-weight-hanging"></i>
                         <input type="number" id="weight" name="weight" required>
-                        <span>
-                            KG
-                        </span>
+                        <span>KG</span>
                     </div>
                 </div>
 
                 <div class="input-box">
-                    <label for="height">
-                        Altura em metros
-                    </label>
+                    <label for="height">Altura em metros</label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
                         <input type="number" step="0.01" id="height" name="height" required>
-                        <span> M </span>
+                        <span>M</span>
                     </div>
                 </div>
                 
-                <button id="calculate">
-                    Calcular
-                </button>
+                <button id="calculate">Calcular</button>
+
+                <!-- Mensagem de erro -->
+                <div id="error-message" class="hidden"></div>
             </form>    
             
             <div id="infos" class="hidden">
