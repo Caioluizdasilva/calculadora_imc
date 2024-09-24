@@ -27,4 +27,4 @@ The **IMC Calculator** project aims to provide users with a simple and efficient
 1. Clone the repository:
    ```bash
    git clone https://github.com/Caioluizdasilva/calculadora_imc.git
-   git clone https://github.com/Caioluizdasilva/calculadora_imc.git
+
