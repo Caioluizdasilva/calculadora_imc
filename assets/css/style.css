@@ -199,8 +199,8 @@ body {
 }
 /* Rodapé */
 #footer {
-    background-color: #fbbf24; /* Cor amarela */
-    color: #fff; /* Cor do texto branco */
+    background-color: #FFE608;
+    color: #000000; /* Cor do texto branco */
     padding: 1.5rem;
     text-align: center;
     position: fixed;
