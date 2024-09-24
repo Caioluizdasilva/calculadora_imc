@@ -197,3 +197,60 @@ body {
     font-size: 1rem; 
     margin-top: 1rem; 
 }
+/* Rodapé */
+#footer {
+    background-color: #fbbf24; /* Cor amarela */
+    color: #fff; /* Cor do texto branco */
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* O rodapé cobre toda a largura da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem; 
+}
+
+.footer-links a {
+    color: #000; 
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links i {
+    margin-right: 0.5rem;
+    color: #000; 
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    min-height: calc(100vh - 60px); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+}
