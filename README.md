@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-## 🏋️‍♂️  🏋️‍♂️ IMC Calculator
-=======
 # 🏋️‍♂️  🏋️‍♂️ IMC Calculator
->>>>>>> 721a0ea4f1c87e2e7af8e74b999d364863a5b9ee
 
-## Descrição
+## Description
 
 The **IMC Calculator** project aims to provide users with a simple and efficient tool to calculate their Body Mass Index (BMI). This web application offers an intuitive interface that allows users to input their weight and height effortlessly. Once the data is submitted, the application computes the BMI and categorizes it according to standard health classifications, helping users understand their weight status. 
 
